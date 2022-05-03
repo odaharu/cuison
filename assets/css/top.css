@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+
+a:hover{
+  color: #ff6347;
+}
+
+
+.mainvisual{
+  width: 86%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+main{
+  width: 100%;
+}
+.new{
+  margin-bottom: 11rem;/*176px*/
+}
+
+.new section{
+  border: solid 1px #2a2a2a;
+  width: 86%;
+  margin: 0 auto;
+  font-size: 125%;
+  margin-bottom: 2.2rem;
+
+}
+
+.new h3{
+  background-color: #f7f7f6;
+  width: 39%;
+  float: left;
+}
+.new h3 img:hover{
+  opacity: 0.7;
+}
+
+.topics{
+  font-size: 140%; /*基準は20pxから計算、28px相当*/
+  background-color: #ccc;
+  margin-left: 39%;
+  margin-bottom: 0.6rem;
+  padding-left: 6%;
+  line-height: 3.8rem;
+  
+}
+
+.new .caption,
+.new dd{
+padding-left: 45%;
+width: 55%;
+}
+
+.new .caption{
+  line-height: 2em;
+}
+
+@media screen and (max-width: 519px){
+  /*リセット*/
+  .new section,
+  .topics,
+  .new .caption,
+  .new dd{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .new section{
+  width: 100%;
+  }
+  
+  .mainvisual{
+  width: 100%;
+  margin: 0 auto;
+  }
+  
+  .new h3{
+  float: none;
+  width: 100%;
+  text-align: center;
+  border-top: dotted #c0c0c0 4px;
+  padding-top: 0.5rem;
+  
+  }
+
+  .new .caption,
+  .new dd{
+  margin: 0 3%;
+  width: 94%;
+  
+  
+  }
+  
+  
+  
+  
+  
+  
+  .new section{
+  border: none;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 100%;
+  margin-bottom: 3rem;
+  
+  }
+
+  
+
+.topics{
+font-size: 100%;
+font-size: 112.5%;
+padding-left: 3%;
+line-height: 2rem;
+margin: 0.5rem 0;
+
+}
+
+.new{
+  margin-bottom: 6rem;/*176px*/
+
+}
+
+
+
+}
+
+
